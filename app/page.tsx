@@ -1,3 +1,9 @@
+// app/page.tsx
+import HomePage from '@/components/HomePage';
+
+export default function Page() {
+  return <HomePage />;
+};
 import { motion } from "framer-motion";
 import { 
   Upload, 
